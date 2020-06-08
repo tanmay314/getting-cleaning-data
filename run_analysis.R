@@ -101,4 +101,4 @@ View(mergedData)
 View(lastData)
 
 #Export data
-write.table(lastData, file="getting-cleaning-data-project.txt")
+write.table(lastData, file="getting-cleaning-data-project.txt", sep="|")
