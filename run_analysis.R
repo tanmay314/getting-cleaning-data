@@ -95,3 +95,10 @@ colnames(activityFinal) <- names(subjectFinal)
 
 #Combine subject and activity data
 lastData <- rbind(activityFinal, subjectFinal)
+
+View(mergedData)
+
+View(lastData)
+
+#Export data
+write.table(lastData, file="getting-cleaning-data-project.txt")
